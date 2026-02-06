@@ -5,8 +5,7 @@
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev",
-		"dev:1x": "turbo dev --filter=1x",
-		"dev:2x": "turbo dev --filter=2x",
+		"dev:www": "turbo dev --filter=www",
 		"lint": "turbo lint",
 		"format": "turbo format",
 		"clean": "turbo clean && rm -rf node_modules",
