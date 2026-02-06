@@ -1,9 +1,9 @@
 {
-	"name": "2x",
+	"name": "www",
 	"private": true,
 	"version": "0.0.0",
 	"scripts": {
-		"dev": "next dev -p 3001",
+		"dev": "next dev -p 4444",
 		"build": "pnpm prebuild && next build",
 		"build:registry": "npx tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.ts && prettier --log-level silent --write \"public/r/*.json\" --cache",
 		"start": "next start",
